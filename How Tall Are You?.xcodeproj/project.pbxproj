@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3833B2E1BBC9E760077BE23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3833B2D1BBC9E760077BE23 /* AppDelegate.swift */; };
+		B3833B301BBC9E760077BE23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3833B2F1BBC9E760077BE23 /* ViewController.swift */; };
+		B3833B331BBC9E760077BE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3833B311BBC9E760077BE23 /* Main.storyboard */; };
+		B3833B361BBC9E760077BE23 /* How_Tall_Are_You_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3833B341BBC9E760077BE23 /* How_Tall_Are_You_.xcdatamodeld */; };
+		B3833B381BBC9E760077BE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3833B371BBC9E760077BE23 /* Assets.xcassets */; };
+		B3833B3B1BBC9E760077BE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3833B391BBC9E760077BE23 /* LaunchScreen.storyboard */; };
+		B3833B461BBC9E760077BE23 /* How_Tall_Are_You_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3833B451BBC9E760077BE23 /* How_Tall_Are_You_Tests.swift */; };
+		B3833B511BBC9E770077BE23 /* How_Tall_Are_You_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3833B501BBC9E770077BE23 /* How_Tall_Are_You_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3833B421BBC9E760077BE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3833B221BBC9E760077BE23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3833B291BBC9E760077BE23;
+			remoteInfo = "How Tall Are You?";
+		};
+		B3833B4D1BBC9E760077BE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3833B221BBC9E760077BE23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3833B291BBC9E760077BE23;
+			remoteInfo = "How Tall Are You?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3833B2A1BBC9E760077BE23 /* How Tall Are You?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How Tall Are You?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3833B2D1BBC9E760077BE23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3833B2F1BBC9E760077BE23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3833B321BBC9E760077BE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3833B351BBC9E760077BE23 /* How_Tall_Are_You_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = How_Tall_Are_You_.xcdatamodel; sourceTree = "<group>"; };
+		B3833B371BBC9E760077BE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3833B3A1BBC9E760077BE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3833B3C1BBC9E760077BE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3833B411BBC9E760077BE23 /* How Tall Are You?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Tall Are You?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3833B451BBC9E760077BE23 /* How_Tall_Are_You_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Tall_Are_You_Tests.swift; sourceTree = "<group>"; };
+		B3833B471BBC9E760077BE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3833B4C1BBC9E760077BE23 /* How Tall Are You?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Tall Are You?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3833B501BBC9E770077BE23 /* How_Tall_Are_You_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Tall_Are_You_UITests.swift; sourceTree = "<group>"; };
+		B3833B521BBC9E770077BE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3833B271BBC9E760077BE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3833B3E1BBC9E760077BE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3833B491BBC9E760077BE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3833B211BBC9E760077BE23 = {
+			isa = PBXGroup;
+			children = (
+				B3833B2C1BBC9E760077BE23 /* How Tall Are You? */,
+				B3833B441BBC9E760077BE23 /* How Tall Are You?Tests */,
+				B3833B4F1BBC9E760077BE23 /* How Tall Are You?UITests */,
+				B3833B2B1BBC9E760077BE23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3833B2B1BBC9E760077BE23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3833B2A1BBC9E760077BE23 /* How Tall Are You?.app */,
+				B3833B411BBC9E760077BE23 /* How Tall Are You?Tests.xctest */,
+				B3833B4C1BBC9E760077BE23 /* How Tall Are You?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3833B2C1BBC9E760077BE23 /* How Tall Are You? */ = {
+			isa = PBXGroup;
+			children = (
+				B3833B2D1BBC9E760077BE23 /* AppDelegate.swift */,
+				B3833B2F1BBC9E760077BE23 /* ViewController.swift */,
+				B3833B311BBC9E760077BE23 /* Main.storyboard */,
+				B3833B371BBC9E760077BE23 /* Assets.xcassets */,
+				B3833B391BBC9E760077BE23 /* LaunchScreen.storyboard */,
+				B3833B3C1BBC9E760077BE23 /* Info.plist */,
+				B3833B341BBC9E760077BE23 /* How_Tall_Are_You_.xcdatamodeld */,
+			);
+			path = "How Tall Are You?";
+			sourceTree = "<group>";
+		};
+		B3833B441BBC9E760077BE23 /* How Tall Are You?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B3833B451BBC9E760077BE23 /* How_Tall_Are_You_Tests.swift */,
+				B3833B471BBC9E760077BE23 /* Info.plist */,
+			);
+			path = "How Tall Are You?Tests";
+			sourceTree = "<group>";
+		};
+		B3833B4F1BBC9E760077BE23 /* How Tall Are You?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3833B501BBC9E770077BE23 /* How_Tall_Are_You_UITests.swift */,
+				B3833B521BBC9E770077BE23 /* Info.plist */,
+			);
+			path = "How Tall Are You?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3833B291BBC9E760077BE23 /* How Tall Are You? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3833B551BBC9E770077BE23 /* Build configuration list for PBXNativeTarget "How Tall Are You?" */;
+			buildPhases = (
+				B3833B261BBC9E760077BE23 /* Sources */,
+				B3833B271BBC9E760077BE23 /* Frameworks */,
+				B3833B281BBC9E760077BE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How Tall Are You?";
+			productName = "How Tall Are You?";
+			productReference = B3833B2A1BBC9E760077BE23 /* How Tall Are You?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3833B401BBC9E760077BE23 /* How Tall Are You?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3833B581BBC9E770077BE23 /* Build configuration list for PBXNativeTarget "How Tall Are You?Tests" */;
+			buildPhases = (
+				B3833B3D1BBC9E760077BE23 /* Sources */,
+				B3833B3E1BBC9E760077BE23 /* Frameworks */,
+				B3833B3F1BBC9E760077BE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3833B431BBC9E760077BE23 /* PBXTargetDependency */,
+			);
+			name = "How Tall Are You?Tests";
+			productName = "How Tall Are You?Tests";
+			productReference = B3833B411BBC9E760077BE23 /* How Tall Are You?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3833B4B1BBC9E760077BE23 /* How Tall Are You?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3833B5B1BBC9E770077BE23 /* Build configuration list for PBXNativeTarget "How Tall Are You?UITests" */;
+			buildPhases = (
+				B3833B481BBC9E760077BE23 /* Sources */,
+				B3833B491BBC9E760077BE23 /* Frameworks */,
+				B3833B4A1BBC9E760077BE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3833B4E1BBC9E760077BE23 /* PBXTargetDependency */,
+			);
+			name = "How Tall Are You?UITests";
+			productName = "How Tall Are You?UITests";
+			productReference = B3833B4C1BBC9E760077BE23 /* How Tall Are You?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3833B221BBC9E760077BE23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Julianna Stevenson";
+				TargetAttributes = {
+					B3833B291BBC9E760077BE23 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B3833B401BBC9E760077BE23 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B3833B291BBC9E760077BE23;
+					};
+					B3833B4B1BBC9E760077BE23 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B3833B291BBC9E760077BE23;
+					};
+				};
+			};
+			buildConfigurationList = B3833B251BBC9E760077BE23 /* Build configuration list for PBXProject "How Tall Are You?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3833B211BBC9E760077BE23;
+			productRefGroup = B3833B2B1BBC9E760077BE23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3833B291BBC9E760077BE23 /* How Tall Are You? */,
+				B3833B401BBC9E760077BE23 /* How Tall Are You?Tests */,
+				B3833B4B1BBC9E760077BE23 /* How Tall Are You?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3833B281BBC9E760077BE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3833B3B1BBC9E760077BE23 /* LaunchScreen.storyboard in Resources */,
+				B3833B381BBC9E760077BE23 /* Assets.xcassets in Resources */,
+				B3833B331BBC9E760077BE23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3833B3F1BBC9E760077BE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3833B4A1BBC9E760077BE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3833B261BBC9E760077BE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3833B361BBC9E760077BE23 /* How_Tall_Are_You_.xcdatamodeld in Sources */,
+				B3833B301BBC9E760077BE23 /* ViewController.swift in Sources */,
+				B3833B2E1BBC9E760077BE23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3833B3D1BBC9E760077BE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3833B461BBC9E760077BE23 /* How_Tall_Are_You_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3833B481BBC9E760077BE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3833B511BBC9E770077BE23 /* How_Tall_Are_You_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3833B431BBC9E760077BE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3833B291BBC9E760077BE23 /* How Tall Are You? */;
+			targetProxy = B3833B421BBC9E760077BE23 /* PBXContainerItemProxy */;
+		};
+		B3833B4E1BBC9E760077BE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3833B291BBC9E760077BE23 /* How Tall Are You? */;
+			targetProxy = B3833B4D1BBC9E760077BE23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3833B311BBC9E760077BE23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3833B321BBC9E760077BE23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3833B391BBC9E760077BE23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3833B3A1BBC9E760077BE23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3833B531BBC9E770077BE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3833B541BBC9E770077BE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3833B561BBC9E770077BE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "How Tall Are You?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Julianna-Stevenson.How-Tall-Are-You-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3833B571BBC9E770077BE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "How Tall Are You?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Julianna-Stevenson.How-Tall-Are-You-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3833B591BBC9E770077BE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "How Tall Are You?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Julianna-Stevenson.How-Tall-Are-You-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Tall Are You?.app/How Tall Are You?";
+			};
+			name = Debug;
+		};
+		B3833B5A1BBC9E770077BE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "How Tall Are You?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Julianna-Stevenson.How-Tall-Are-You-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Tall Are You?.app/How Tall Are You?";
+			};
+			name = Release;
+		};
+		B3833B5C1BBC9E770077BE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "How Tall Are You?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Julianna-Stevenson.How-Tall-Are-You-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "How Tall Are You?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B3833B5D1BBC9E770077BE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "How Tall Are You?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Julianna-Stevenson.How-Tall-Are-You-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "How Tall Are You?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3833B251BBC9E760077BE23 /* Build configuration list for PBXProject "How Tall Are You?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3833B531BBC9E770077BE23 /* Debug */,
+				B3833B541BBC9E770077BE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3833B551BBC9E770077BE23 /* Build configuration list for PBXNativeTarget "How Tall Are You?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3833B561BBC9E770077BE23 /* Debug */,
+				B3833B571BBC9E770077BE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3833B581BBC9E770077BE23 /* Build configuration list for PBXNativeTarget "How Tall Are You?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3833B591BBC9E770077BE23 /* Debug */,
+				B3833B5A1BBC9E770077BE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3833B5B1BBC9E770077BE23 /* Build configuration list for PBXNativeTarget "How Tall Are You?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3833B5C1BBC9E770077BE23 /* Debug */,
+				B3833B5D1BBC9E770077BE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3833B341BBC9E760077BE23 /* How_Tall_Are_You_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3833B351BBC9E760077BE23 /* How_Tall_Are_You_.xcdatamodel */,
+			);
+			currentVersion = B3833B351BBC9E760077BE23 /* How_Tall_Are_You_.xcdatamodel */;
+			path = How_Tall_Are_You_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3833B221BBC9E760077BE23 /* Project object */;
+}

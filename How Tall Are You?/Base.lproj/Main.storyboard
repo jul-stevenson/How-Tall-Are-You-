@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="How_Tall_Are_You_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="feet" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="93g-Xe-4Yh">
+                                <rect key="frame" x="194" y="211" width="386" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Xl5-Tr-GQP"/>
+                                    <constraint firstAttribute="width" constant="386" id="pyo-A2-aVr"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="feetEntered:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="wnq-8Q-FrZ"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5 chicken tall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="GAt-60-dFC">
+                                <rect key="frame" x="20" y="382" width="571" height="181"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="181" id="9K0-7b-fSG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="inches" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-m2-qE1">
+                                <rect key="frame" x="381" y="269" width="199" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="386" id="3JU-Ze-qXf"/>
+                                    <constraint firstAttribute="height" constant="50" id="g6y-3A-ctN"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="inchesEntered:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ivl-bi-wgO"/>
+                                </connections>
+                            </textField>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se7-tI-4tP">
+                                <rect key="frame" x="483" y="327" width="97" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="HpX-EG-lSS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="40"/>
+                                <state key="normal" title="Go">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VsC-rb-0N2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How tall are you in chicken?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="8kr-GQ-uU1">
+                                <rect key="frame" x="20" y="0.0" width="565" height="174"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="74"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GAt-60-dFC" firstAttribute="top" secondItem="wLx-m2-qE1" secondAttribute="bottom" constant="63" id="8qA-KL-QZm"/>
+                            <constraint firstItem="wLx-m2-qE1" firstAttribute="top" secondItem="93g-Xe-4Yh" secondAttribute="bottom" constant="8" symbolic="YES" id="D8e-cQ-neS"/>
+                            <constraint firstItem="GAt-60-dFC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GVq-DN-mck"/>
+                            <constraint firstItem="8kr-GQ-uU1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="I3o-jj-AXb"/>
+                            <constraint firstItem="93g-Xe-4Yh" firstAttribute="top" secondItem="8kr-GQ-uU1" secondAttribute="bottom" constant="37" id="Jp0-mG-EQk"/>
+                            <constraint firstItem="wLx-m2-qE1" firstAttribute="leading" secondItem="93g-Xe-4Yh" secondAttribute="leading" id="YOa-UI-eZI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GAt-60-dFC" secondAttribute="trailing" constant="-11" id="YhQ-j9-PIN"/>
+                            <constraint firstAttribute="bottom" secondItem="GAt-60-dFC" secondAttribute="bottom" constant="37" id="dGo-zh-XTP"/>
+                            <constraint firstItem="wLx-m2-qE1" firstAttribute="trailing" secondItem="Se7-tI-4tP" secondAttribute="trailing" id="kEt-LL-QoL"/>
+                            <constraint firstItem="wLx-m2-qE1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="lOS-3b-iuc"/>
+                            <constraint firstItem="8kr-GQ-uU1" firstAttribute="leading" secondItem="GAt-60-dFC" secondAttribute="leading" id="q5u-H3-EXd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8kr-GQ-uU1" secondAttribute="trailing" constant="-5" id="z2z-1u-tGV"/>
+                            <constraint firstItem="Se7-tI-4tP" firstAttribute="top" secondItem="93g-Xe-4Yh" secondAttribute="bottom" constant="66" id="zvk-4F-NdA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="GAt-60-dFC" id="kBm-Ob-uzH"/>
+                        <outlet property="feetText" destination="93g-Xe-4Yh" id="CNI-fa-gse"/>
+                        <outlet property="goButton" destination="Se7-tI-4tP" id="fk2-kI-rXt"/>
+                        <outlet property="inchesText" destination="wLx-m2-qE1" id="esK-lu-xcj"/>
+                        <outlet property="questionLabel" destination="8kr-GQ-uU1" id="ysh-kv-fhi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="125"/>
+        </scene>
+    </scenes>
+</document>
