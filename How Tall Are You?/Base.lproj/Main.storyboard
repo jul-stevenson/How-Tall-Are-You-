@@ -17,11 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="feet" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="93g-Xe-4Yh">
-                                <rect key="frame" x="194" y="211" width="386" height="50"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="feet" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="93g-Xe-4Yh">
+                                <rect key="frame" x="242" y="213" width="270" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Xl5-Tr-GQP"/>
-                                    <constraint firstAttribute="width" constant="386" id="pyo-A2-aVr"/>
+                                    <constraint firstAttribute="width" constant="270" id="pyo-A2-aVr"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
@@ -39,19 +39,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="inches" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-m2-qE1">
-                                <rect key="frame" x="381" y="269" width="199" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="386" id="3JU-Ze-qXf"/>
-                                    <constraint firstAttribute="height" constant="50" id="g6y-3A-ctN"/>
-                                </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="inchesEntered:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ivl-bi-wgO"/>
-                                </connections>
-                            </textField>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se7-tI-4tP">
                                 <rect key="frame" x="483" y="327" width="97" height="59"/>
                                 <constraints>
@@ -71,19 +58,50 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ft" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHd-xt-yLn">
+                                <rect key="frame" x="548" y="211" width="43" height="58"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZf-dJ-R1Z">
+                                <rect key="frame" x="547" y="269" width="44" height="58"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="inches" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-m2-qE1">
+                                <rect key="frame" x="242" y="271" width="270" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="3JU-Ze-qXf"/>
+                                    <constraint firstAttribute="height" constant="50" id="g6y-3A-ctN"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="inchesEntered:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ivl-bi-wgO"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="GAt-60-dFC" firstAttribute="top" secondItem="wLx-m2-qE1" secondAttribute="bottom" constant="63" id="8qA-KL-QZm"/>
                             <constraint firstItem="wLx-m2-qE1" firstAttribute="top" secondItem="93g-Xe-4Yh" secondAttribute="bottom" constant="8" symbolic="YES" id="D8e-cQ-neS"/>
                             <constraint firstItem="GAt-60-dFC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GVq-DN-mck"/>
+                            <constraint firstItem="lHd-xt-yLn" firstAttribute="top" secondItem="8kr-GQ-uU1" secondAttribute="bottom" constant="37" id="Hh6-la-fpn"/>
                             <constraint firstItem="8kr-GQ-uU1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="I3o-jj-AXb"/>
                             <constraint firstItem="93g-Xe-4Yh" firstAttribute="top" secondItem="8kr-GQ-uU1" secondAttribute="bottom" constant="37" id="Jp0-mG-EQk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lHd-xt-yLn" secondAttribute="trailing" constant="-11" id="Ubo-GY-9T2"/>
+                            <constraint firstItem="lHd-xt-yLn" firstAttribute="leading" secondItem="93g-Xe-4Yh" secondAttribute="trailing" constant="36" id="XeU-Fj-6p6"/>
                             <constraint firstItem="wLx-m2-qE1" firstAttribute="leading" secondItem="93g-Xe-4Yh" secondAttribute="leading" id="YOa-UI-eZI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GAt-60-dFC" secondAttribute="trailing" constant="-11" id="YhQ-j9-PIN"/>
                             <constraint firstAttribute="bottom" secondItem="GAt-60-dFC" secondAttribute="bottom" constant="37" id="dGo-zh-XTP"/>
-                            <constraint firstItem="wLx-m2-qE1" firstAttribute="trailing" secondItem="Se7-tI-4tP" secondAttribute="trailing" id="kEt-LL-QoL"/>
-                            <constraint firstItem="wLx-m2-qE1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="lOS-3b-iuc"/>
+                            <constraint firstItem="wLx-m2-qE1" firstAttribute="trailing" secondItem="Se7-tI-4tP" secondAttribute="trailing" constant="-68" id="kEt-LL-QoL"/>
+                            <constraint firstItem="ZZf-dJ-R1Z" firstAttribute="leading" secondItem="wLx-m2-qE1" secondAttribute="trailing" constant="35" id="knd-OP-q6U"/>
+                            <constraint firstItem="wLx-m2-qE1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-68" id="lOS-3b-iuc"/>
+                            <constraint firstItem="ZZf-dJ-R1Z" firstAttribute="top" secondItem="lHd-xt-yLn" secondAttribute="bottom" id="mVX-R2-BEo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZZf-dJ-R1Z" secondAttribute="trailing" constant="-11" id="oh9-y6-lGT"/>
                             <constraint firstItem="8kr-GQ-uU1" firstAttribute="leading" secondItem="GAt-60-dFC" secondAttribute="leading" id="q5u-H3-EXd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8kr-GQ-uU1" secondAttribute="trailing" constant="-5" id="z2z-1u-tGV"/>
                             <constraint firstItem="Se7-tI-4tP" firstAttribute="top" secondItem="93g-Xe-4Yh" secondAttribute="bottom" constant="66" id="zvk-4F-NdA"/>
