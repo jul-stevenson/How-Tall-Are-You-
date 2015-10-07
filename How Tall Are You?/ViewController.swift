@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         answerLabel.text = ""
         questionLabel.sizeToFit()
         answerLabel.sizeToFit()
+        //questionLabel.adjustsFontSizeToFitWidth = true
+        //questionLabel.minimumScaleFactor = 0.2
         
     }
     
