@@ -21,13 +21,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        goButton.hidden = true
+
         answerLabel.text = ""
         questionLabel.sizeToFit()
         answerLabel.sizeToFit()
-        //questionLabel.adjustsFontSizeToFitWidth = true
-        //questionLabel.minimumScaleFactor = 0.2
         
     }
     
@@ -38,19 +35,11 @@ class ViewController: UIViewController {
     
     @IBAction func feetEntered(sender: AnyObject) {
         feetValue = Float(feetText.text!)
-        
-        if(inchesText.text != ""){
-            goButton.hidden = false
-        }
     }
     
     @IBAction func inchesEntered(sender:
         AnyObject) {
             inchesValue = Float(inchesText.text!)
-            
-            if(feetText.text != ""){
-                goButton.hidden = false
-            }
     }
     
     @IBAction func goButtonClicked(sender: AnyObject) {
