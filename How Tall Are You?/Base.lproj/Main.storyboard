@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="feet" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="93g-Xe-4Yh">
-                                <rect key="frame" x="242" y="213" width="270" height="50"/>
+                                <rect key="frame" x="242" y="216" width="270" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Xl5-Tr-GQP"/>
                                     <constraint firstAttribute="width" constant="270" id="pyo-A2-aVr"/>
@@ -30,7 +30,7 @@
                                     <action selector="feetEntered:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="wnq-8Q-FrZ"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5 chicken tall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="GAt-60-dFC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5 chickens tall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="GAt-60-dFC">
                                 <rect key="frame" x="20" y="382" width="571" height="181"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="181" id="9K0-7b-fSG"/>
@@ -39,7 +39,20 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se7-tI-4tP">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="inches" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-m2-qE1">
+                                <rect key="frame" x="242" y="275" width="270" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="3JU-Ze-qXf"/>
+                                    <constraint firstAttribute="height" constant="50" id="g6y-3A-ctN"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="inchesEntered:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ivl-bi-wgO"/>
+                                </connections>
+                            </textField>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se7-tI-4tP">
                                 <rect key="frame" x="483" y="327" width="97" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="HpX-EG-lSS"/>
@@ -52,41 +65,28 @@
                                     <action selector="goButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VsC-rb-0N2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How tall are you in chicken?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="8kr-GQ-uU1">
-                                <rect key="frame" x="20" y="0.0" width="565" height="174"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="74"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ft" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHd-xt-yLn">
-                                <rect key="frame" x="548" y="211" width="43" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ft" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHd-xt-yLn">
+                                <rect key="frame" x="548" y="208" width="43" height="58"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZf-dJ-R1Z">
-                                <rect key="frame" x="547" y="269" width="44" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZf-dJ-R1Z">
+                                <rect key="frame" x="547" y="266" width="44" height="58"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="inches" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-m2-qE1">
-                                <rect key="frame" x="242" y="271" width="270" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="270" id="3JU-Ze-qXf"/>
-                                    <constraint firstAttribute="height" constant="50" id="g6y-3A-ctN"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How tall are you in chickens?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="8kr-GQ-uU1">
+                                <rect key="frame" x="20" y="20" width="560" height="200"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="59"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="inchesEntered:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ivl-bi-wgO"/>
-                                </connections>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="GAt-60-dFC" firstAttribute="top" secondItem="wLx-m2-qE1" secondAttribute="bottom" constant="63" id="8qA-KL-QZm"/>
+                            <constraint firstItem="GAt-60-dFC" firstAttribute="top" secondItem="wLx-m2-qE1" secondAttribute="bottom" constant="59" id="8qA-KL-QZm"/>
                             <constraint firstItem="wLx-m2-qE1" firstAttribute="top" secondItem="93g-Xe-4Yh" secondAttribute="bottom" constant="8" symbolic="YES" id="D8e-cQ-neS"/>
                             <constraint firstItem="GAt-60-dFC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GVq-DN-mck"/>
                             <constraint firstItem="lHd-xt-yLn" firstAttribute="top" secondItem="8kr-GQ-uU1" secondAttribute="bottom" constant="37" id="Hh6-la-fpn"/>

@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         if(feetValue != nil && inchesValue != nil){
             let chickenHeight:Float = Float((feetValue!*12 + inchesValue!))/16
             
-            let height = String(format: "%.2f chicken tall", chickenHeight)
+            let height = String(format: "%.2f chickens tall", chickenHeight)
             
             answerLabel.text = String(height)
         }
