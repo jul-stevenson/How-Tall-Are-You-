@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var feetText: UITextField!
@@ -26,6 +26,11 @@ class ViewController: UIViewController {
         questionLabel.sizeToFit()
         answerLabel.sizeToFit()
         
+        feetText.delegate = self
+        feetText.keyboardType = UIKeyboardType.NumberPad
+        inchesText.delegate = self
+        inchesText.keyboardType = UIKeyboardType.NumberPad
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -33,13 +38,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func feetEntered(sender: AnyObject) {
+    @IBAction func feetEntered(sender: AnyObject){
         feetValue = Float(feetText.text!)
     }
     
     @IBAction func inchesEntered(sender:
         AnyObject) {
-            inchesValue = Float(inchesText.text!)
+        inchesValue = Float(inchesText.text!)
     }
     
     @IBAction func goButtonClicked(sender: AnyObject) {
@@ -50,5 +55,15 @@ class ViewController: UIViewController {
             
             answerLabel.text = String(height)
         }
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        feetText.resignFirstResponder()
+        inchesText.resignFirstResponder()
     }
 }
